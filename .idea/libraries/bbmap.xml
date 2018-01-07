@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="bbmap">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/resources/bbmap.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/src/main/resources/bbmap.jar!/current" />
+    </SOURCES>
+  </library>
+</component>

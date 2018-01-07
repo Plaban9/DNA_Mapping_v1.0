@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<configuration>
+  <!--
+  <property>
+    <name>dt.application.{appName}.operator.{opName}.prop.{propName}</name>
+    <value>some-default-value (if value is not specified, it is required from the user or custom config when launching)</value>
+  </property>
+  -->
+  <!-- memory assigned to app master-->
+  <property>
+    <name>dt.attr.MASTER_MEMORY_MB</name>
+    <value>512</value>
+  </property>
+
+
+  <!--ConsoleOutput Operator-->
+  <property>
+    <name>dt.application.DNA_Mapping.operator.console.prop.stringFormat</name>
+    <value>%s</value>
+  </property>
+
+  <!--LineByLineInputReader Operator-->
+  <property>
+    <name>dt.application.DNA_Mapping.operator.fastqReader.prop.directory</name>
+    <value>file:///home/plaban/Test/Input/Medium_FASTQ/</value>
+  </property>
+
+  <!--FileOutput Operator-->
+  <property>
+    <name>dt.operator.fileOutput.prop.filePath</name>
+    <value>file:///home/plaban/Test/Output/SAM/Mapped_Large_SAM</value>
+  </property>
+
+  <property>
+    <name>dt.operator.fileOutput.prop.outputFileName</name>
+    <value>mapped.sam</value>
+  </property>
+
+  <!--Mapper Operator-->
+  <property>
+    <name>dt.operator.mapper.prop.refFilePath</name>
+    <value>/home/plaban/Test/Reference/Test/Indexed/sequence.fasta</value>
+  </property>
+
+
+</configuration>
+
